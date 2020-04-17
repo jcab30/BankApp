@@ -1,0 +1,2 @@
+admin;admin;manager
+admin2;admin2;manager
