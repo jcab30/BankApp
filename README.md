@@ -1,5 +1,5 @@
 # BankApp
-Simple Bank Application w/ Customers and Managers
+Simple Bank Application
 
 Customers 
 - can withdraw,deposit, and purchase online
@@ -13,3 +13,7 @@ Bank Database:
 - one file per customer
 - database file containing the names of all customers
 - database file containing the names of managers
+
+
+NOTE: 
+In Bank.java change the String variable "fileDestination" to the name of a folder in your directory to act as the storage folder of the program
