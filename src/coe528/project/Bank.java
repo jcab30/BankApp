@@ -31,7 +31,9 @@ public class Bank {
         /** IMPORTANT NOTE.
         * Implementation of a DYNAMIC STORAGE DATABASE of CUSTOMER and MANAGEAR
         */
-        this.fileDestination = "C:\\Users\\John Cabuguason\\Documents\\NetBeansProjects\\BankApp\\src\\coe528\\project";
+        
+        new File("C:\\bankApplication_byJohnCabuguason").mkdirs();
+        this.fileDestination = "C:\\bankApplication_byJohnCabuguason";
         this.customerfile = new File(this.fileDestination+"\\customers.txt");
         this.managerfile = new File(this.fileDestination+"\\managers.txt");
         
