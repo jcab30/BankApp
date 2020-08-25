@@ -1,6 +1,12 @@
 # BankApp
 Simple Bank Application
 
+*IMPORTANT*
+- default manager username: admin
+- default manager password: admin
+
+
+
 Customers 
 - can withdraw,deposit, and purchase online
 - have a membership discount applied when purchasing online (Gold, Silver, Platinum)
@@ -13,7 +19,3 @@ Bank Database:
 - one file per customer
 - database file containing the names of all customers
 - database file containing the names of managers
-
-
-NOTE: 
-In Bank.java change the String variable "fileDestination" to the name of a folder in your directory to act as the storage folder of the program
